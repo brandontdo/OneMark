@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:background="@drawable/marks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onemarkeah.Marks"
+    tools:ignore="MergeRootFrame">
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65px"
+        android:layout_marginTop="520dp"
+        android:background="@null"
+        android:onClick="openAdd"
+        android:textColor="#FEEBA9"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imageButton1"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:onClick="openCourse"
+        android:textColor="#FEEBA9"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imageButton6"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="650px"
+        android:layout_marginTop="450dp"
+        android:background="@null"
+        android:onClick="openCourse"
+        android:textColor="#FEEBA9"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imageButton5"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageButton6"
+        android:layout_marginStart="150px"
+        android:layout_marginTop="370dp"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:background="@null"
+        android:onClick="openCourse"
+        android:textColor="#FEEBA9"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imageButton4"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/imageButton5"
+        android:layout_alignRight="@+id/imageButton6"
+        android:layout_marginStart="600px"
+        android:layout_marginTop="280dp"
+        android:background="@null"
+        android:onClick="openCourse"
+        android:textColor="#FEEBA9"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imageButton3"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@+id/imageButton5"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginStart="100px"
+        android:layout_marginTop="200dp"
+        android:background="@null"
+        android:onClick="openCourse"
+        android:textColor="#FEEBA9"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/imageButton2"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="550px"
+        android:layout_marginTop="120dp"
+        android:background="@null"
+        android:onClick="openCourse"
+        android:textColor="#FEEBA9"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/avg"
+        android:layout_width="115dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="0dp"
+        android:ems="10" 
+        android:textColor="#FEEBA9"
+        android:textSize="40sp"/>
+
+</FrameLayout>
+
